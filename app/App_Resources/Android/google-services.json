@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "131808423611",
+    "firebase_url": "https://discover-events-app.firebaseio.com",
+    "project_id": "discover-events-app",
+    "storage_bucket": "discover-events-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:131808423611:android:fc3f3a7a5ed65b24",
+        "android_client_info": {
+          "package_name": "com.culture.discoverEventsApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "131808423611-m2rtclth7qiv0u10apb0df0i2ean7b80.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMxntn_yEcAoZsTEKmY0FXLgdgQl-4_h0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

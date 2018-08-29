@@ -1,0 +1,22 @@
+<StackLayout height="100%" width="100%">
+  <VideoPlayer #video_player fill="false" controls="false" muted="true" loop="true"
+   autoplay="true" [height]="height" src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+   (seekToTimeComplete)="onSeekToTimeComplete($event)">
+  </VideoPlayer>
+</StackLayout>
+<!-- <AbsoluteLayout style="z-index: 100000;" width="100%" height="100%" backgroundColor="rgb(0,0,0,0.3)">
+  <Image src="https://cultur.events/public/img/logo.png" class="emirates-icon"></Image>
+  <StackLayout class="welcome-onboard">
+    <Label text="Find What's Happening Now" horizontalAlignment="center" class="welcome-onboard-label"></Label>
+  </StackLayout>
+  <StackLayout class="welcome-button-panel">
+    <StackLayout horizontalAlignment="center" orientation="horizontal">
+      <Button text="Face ID Login" isEnabled="true" horizontalAlignment="left" (tap)="navigate('facepair')" class="btn btn-primary"></Button> 
+      <Button text="Smartphone Login" isEnabled="true" horizontalAlignment="center" (tap)="navigate('qrpair')" class="btn btn-primary"></Button>
+      <Button text="Skywards Login" isEnabled="true" horizontalAlignment="right" class="btn btn-primary"></Button>
+    </StackLayout>
+    <Label text="Or" horizontalAlignment="center" class="onboard-sep-label"></Label>
+    <Button text="Login as Guest" isEnabled="true" horizontalAlignment="center" class="btn btn-primary-guest"></Button>
+  </StackLayout>
+
+</AbsoluteLayout> -->

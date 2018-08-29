@@ -1,0 +1,58 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "com.culture.discoverEventsApp",
+    "tns-android": {
+      "version": "4.2.0"
+    },
+    "tns-ios": {
+      "version": "4.2.0"
+    }
+  },
+  "dependencies": {
+    "@angular/animations": "~6.0.6",
+    "@angular/common": "~6.0.6",
+    "@angular/compiler": "~6.0.6",
+    "@angular/core": "~6.0.6",
+    "@angular/forms": "~6.0.6",
+    "@angular/http": "~6.0.6",
+    "@angular/platform-browser": "~6.0.6",
+    "@angular/platform-browser-dynamic": "~6.0.6",
+    "@angular/router": "~6.0.6",
+    "@types/node": "~8.9.4",
+    "angular-pipes": "^8.1.0",
+    "immutable": "^3.8.2",
+    "moment": "^2.22.2",
+    "nativescript-angular": "~6.0.6",
+    "nativescript-angular-cli": "^0.1.9",
+    "nativescript-cardview": "^3.1.1",
+    "nativescript-geolocation": "^4.3.0",
+    "nativescript-gif": "^4.0.1",
+    "nativescript-google-maps-sdk": "^2.6.1",
+    "nativescript-ng2-fonticon": "^1.3.4",
+    "nativescript-plugin-firebase": "^6.6.0",
+    "nativescript-sqlite": "^2.2.1",
+    "nativescript-theme-core": "~1.0.4",
+    "nativescript-videoplayer": "^4.2.0",
+    "reflect-metadata": "~0.1.10",
+    "rxjs": "~6.1.0",
+    "rxjs-compat": "^6.2.2",
+    "tns-core-modules": "^4.2.0",
+    "zone.js": "~0.8.18"
+  },
+  "devDependencies": {
+    "@angular/compiler-cli": "~6.1.0-beta.3",
+    "@ngtools/webpack": "6.1.0-rc.0",
+    "babel-traverse": "6.26.0",
+    "babel-types": "6.26.0",
+    "babylon": "6.18.0",
+    "lazy": "1.0.11",
+    "nativescript-dev-sass": "^1.6.0",
+    "nativescript-dev-typescript": "~0.7.0",
+    "nativescript-dev-webpack": "~0.14.0",
+    "typescript": "^2.9.2"
+  }
+}
