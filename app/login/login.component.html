@@ -1,9 +1,10 @@
-<StackLayout height="100%" width="100%">
-  <VideoPlayer #video_player fill="false" controls="false" muted="true" loop="true"
-   autoplay="true" [height]="height" src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-   (seekToTimeComplete)="onSeekToTimeComplete($event)">
-  </VideoPlayer>
-</StackLayout>
+<!-- <AbsoluteLayout class="home" backgroundImage="~/assets/images/bg1.png">
+  <StackLayout height="100%" width="100%">
+    <VideoPlayer #video_player fill="false" controls="false" muted="true" loop="true" autoplay="true" [height]="height" src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
+      (seekToTimeComplete)="onSeekToTimeComplete($event)">
+    </VideoPlayer>
+  </StackLayout>
+</AbsoluteLayout> -->
 <!-- <AbsoluteLayout style="z-index: 100000;" width="100%" height="100%" backgroundColor="rgb(0,0,0,0.3)">
   <Image src="https://cultur.events/public/img/logo.png" class="emirates-icon"></Image>
   <StackLayout class="welcome-onboard">
@@ -20,3 +21,7 @@
   </StackLayout>
 
 </AbsoluteLayout> -->
+
+<AbsoluteLayout class="movie">
+  <Image width="100%" height="100%" stretch="fill" left="0" top="0" class="face-sector" src="~/assets/images/login.jpg"></Image>
+</AbsoluteLayout>

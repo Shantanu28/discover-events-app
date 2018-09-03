@@ -13,35 +13,15 @@ registerElement("VideoPlayer", () => Video);
   templateUrl: './login.component.html',
   styleUrls: ['./login.component.scss']
 })
-export class LoginComponent implements OnInit, AfterViewInit {
-
-  @ViewChild("video_player") videoPlayer: ElementRef;
-  // height: any;
-
-  public height = Math.floor(screen.mainScreen.widthPixels*9/16)/2;
+export class LoginComponent implements OnInit {
 
   constructor(private page: Page, private router: Router) { }
 
   ngOnInit() {
     this.page.actionBarHidden = true;
-    this.height = screen.mainScreen.heightPixels;
-    let time = this.videoPlayer.nativeElement.getCurrentTime();
-    
-    // Video.
   }
-
-  ngAfterViewInit() {
-    this.videoPlayer.nativeElement._playerController.entersFullScreenWhenPlaybackBegins = true;
-  }
-
 
   navigate(path: string) {
     
   }
-
-  public onSeekToTimeComplete(evt: EventData){
-    console.log("seek to time done");
-    this.videoPlayer.nativeElement._playerController.entersFullScreenWhenPlaybackBegins = true;
-  }
-
 }
