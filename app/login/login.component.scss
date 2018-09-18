@@ -1,103 +1,78 @@
-.home {
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    background-color: #220b29
-}
-
-.movie {
+.login-page {
     margin-top: 0%;
 }
 
-.poster {
+.bg-image {
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 
-.welcome-onboard {
-    margin-top: 30%;
-    width: 100%;
+.social-login {
+    margin-top: 75%;
 }
 
-.welcome-onboard-label {
-    color: white;
-    font-size: 140sp;
+.button-facebook {
+    height: 50;
+    width: 300;
+    z-index: 1000;
+    margin: 10 15 5 15;
+    border-radius: 35;
+    background-color: #2b4170;
+    border: 1px solid #2b4170;
+    text-shadow: 0 -1px -1px #1f2f52;
+}
+
+.fb-icon {
+    background-color: white;
+    margin-left: 10;
+    margin-right: 10;
+    border-radius: 50%;
+}
+
+.button-twitter {
+    height: 50;
+    width: 300;
+    z-index: 1000;
+    margin: 5 15 15 15;
+    border-radius: 35;
+    background-color: #0081ce;
+    border: 1px solid #0081ce;
+    text-shadow: 0 -1px -1px #005ea3;
+}
+
+.twitter-icon {
+    background-color: white;
+    margin-left: 0%;
+    margin-right: 20;
+    border-radius: 50%;
+}
+
+.label-layout {
     font-family: 'EK03Serif-M01';
-}
-
-.welcome-button-panel {
-    margin-top: 47%;
-    width: 100%;
-}
-
-.onboard-sep-label {
-    color: white;
-    font-size: 45;
-    font-family: 'EK03Serif-B01';
-}
-
-.btn-primary {
-    font-family: 'EK03Serif-B01';
-    height: 70;
-    width: 300;
-    z-index:9999999;
-    margin: 30 15 15 15;
-    background: linear-gradient(to right, #d71921, #7c1008);
-    border-radius: 35;
-    font-size: 30sp;
+    margin: 10 10 10 10;
+    font-size: 22;
     color: #f5f5f9;
     text-transform: none;
 }
 
-.btn-primary-guest {
+.login-logo {
+    margin-top: 10%;
+}
+
+.header-label {
     font-family: 'EK03Serif-B01';
-    height: 70;
-    width: 300;
-    margin: 30 15 15 15;
-    background-color: #cc7d7380;
-    border-radius: 35;
-    font-size: 30sp;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    font-size: 47;
+    font-weight: 500;
     color: #f5f5f9;
     text-transform: none;
-    opacity: 0.9;
 }
 
-.btn-primary:disabled {
-    opacity: 0.5;
-}
-
-.btn-primary-guest:disabled {
-    opacity: 0.5;
-}
-
-.select-language {
-    margin-top: 85%;
-    margin-left: 82%;
-    // width: 100%;
-    // vertical-align: bottom;
-    border-radius: 35;
-    border-width: 3px;
-    border-color: #ffffff;
-    // border: 10px #ffffff;
-    // background-color: #1a1020;
-    // opacity: 0.5;
-}
-
-.select-language-icon {
-    height: 38;
-    width: 35;
-    margin-left: 25;
-}
-
-.select-language-label {
-    color: white;
-    font-size: 30sp;
-    font-family: 'EK03Serif-B01';
-    margin: 15 25 15 15;
-}
-
-.emirates-icon {
-    height: 180;
-    width: 150;
-    margin-top: 0;
-    margin-left: 90%;
+.subheader-label {
+    font-family: 'EK03Serif-M01';
+    margin-top: -5;
+    font-size: 25;
+    color: #f5f5f9;
+    text-transform: none;
 }

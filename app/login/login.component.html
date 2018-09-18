@@ -1,27 +1,18 @@
-<!-- <AbsoluteLayout class="home" backgroundImage="~/assets/images/bg1.png">
-  <StackLayout height="100%" width="100%">
-    <VideoPlayer #video_player fill="false" controls="false" muted="true" loop="true" autoplay="true" [height]="height" src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4"
-      (seekToTimeComplete)="onSeekToTimeComplete($event)">
-    </VideoPlayer>
+<AbsoluteLayout width="100%" height="100%" class="login-page">
+  <Image width="100%" height="100%" stretch="fill" left="0" top="0" class="bg-image" src="~/assets/images/login.jpg"></Image>
+  <StackLayout width="100%" class="login-logo">
+    <Image horizontalAlignment="center" src="~/assets/images/culture-icon.png" width="100" height="100" class="img-rounded"></Image>
+    <Label horizontalAlignment="center" text="Culture" textWrap="true" class="header-label"></Label>
+    <Label horizontalAlignment="center" text="Events search ends here" textWrap="true" class="subheader-label"></Label>
   </StackLayout>
-</AbsoluteLayout> -->
-<!-- <AbsoluteLayout style="z-index: 100000;" width="100%" height="100%" backgroundColor="rgb(0,0,0,0.3)">
-  <Image src="https://cultur.events/public/img/logo.png" class="emirates-icon"></Image>
-  <StackLayout class="welcome-onboard">
-    <Label text="Find What's Happening Now" horizontalAlignment="center" class="welcome-onboard-label"></Label>
-  </StackLayout>
-  <StackLayout class="welcome-button-panel">
-    <StackLayout horizontalAlignment="center" orientation="horizontal">
-      <Button text="Face ID Login" isEnabled="true" horizontalAlignment="left" (tap)="navigate('facepair')" class="btn btn-primary"></Button> 
-      <Button text="Smartphone Login" isEnabled="true" horizontalAlignment="center" (tap)="navigate('qrpair')" class="btn btn-primary"></Button>
-      <Button text="Skywards Login" isEnabled="true" horizontalAlignment="right" class="btn btn-primary"></Button>
+  <StackLayout width="100%" class="social-login">
+    <StackLayout horizontalAlignment="center" orientation="horizontal" class="button-facebook" (tap)="doLoginByFacebook()">
+      <Image horizontalAlignment="right" src="~/assets/images/fb.png" width="30" height="30" class="img-rounded fb-icon"></Image>
+      <Label horizontalAlignment="center" text="Login with Facebook" textWrap="true" class="label-layout"></Label>
     </StackLayout>
-    <Label text="Or" horizontalAlignment="center" class="onboard-sep-label"></Label>
-    <Button text="Login as Guest" isEnabled="true" horizontalAlignment="center" class="btn btn-primary-guest"></Button>
+    <StackLayout horizontalAlignment="center" orientation="horizontal" class="button-twitter">
+      <Image horizontalAlignment="right" src="~/assets/images/twitter.png" width="30" height="30" class="img-rounded twitter-icon"></Image>
+      <Label horizontalAlignment="center" text="Login with Twitter" textWrap="true" class="label-layout"></Label>
+    </StackLayout>
   </StackLayout>
-
-</AbsoluteLayout> -->
-
-<AbsoluteLayout class="movie">
-  <Image width="100%" height="100%" stretch="fill" left="0" top="0" class="face-sector" src="~/assets/images/login.jpg"></Image>
 </AbsoluteLayout>
